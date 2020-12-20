@@ -33,7 +33,7 @@ jobs:
         uses: akhileshns/heroku-deploy@v3.7.8
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: intense-journey-42881
+          heroku_app_name: serene-dusk-05411
           heroku_email: dhakalsamundra35@gmail.com
 
       - uses: actions/checkout@v2
