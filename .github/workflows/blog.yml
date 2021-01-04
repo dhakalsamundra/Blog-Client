@@ -55,6 +55,7 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }} # required
         if: ${{ success() && github.event_name == 'push' }}
 
+
       - name: On Faliure
         uses: 8398a7/action-slack@v3
         with:
